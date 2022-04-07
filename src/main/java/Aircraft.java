@@ -1,6 +1,4 @@
-package vehicles;
-
-public class Aircraft extends Vehicle{
+public class Aircraft extends Vehicle {
     private String fly;
 
     public void fly() {

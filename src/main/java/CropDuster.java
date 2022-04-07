@@ -1,6 +1,4 @@
-package vehicles;
-
-public class CropDuster extends Aircraft{
+public class CropDuster extends Aircraft {
     private String fertilize;
 
     public void Fertilize(String cropRow) {

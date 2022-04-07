@@ -1,4 +1,3 @@
 public interface IProduce {
-    Edible yield(boolean hasBeenFertilized);
-
+    Edible yield();
 }

@@ -11,8 +11,8 @@ public class Farmer extends Person implements IRider, implements IBotanist , imp
     }
 
 
-    public String plant(Crop crop){
-        return CropRow;
+    public void plant(Crop[] crop){
+
     }
 
     @Override

@@ -2,12 +2,8 @@ public abstract class Person implements IEater, implements NoiseMaker{
 
 
 
-    public void eat(Edible edible ){
+    public abstract void eat(Edible edible );
 
-    }
-
-    public void makeNoise(){
-
-    }
+    public abstract void makeNoise();
 
 }

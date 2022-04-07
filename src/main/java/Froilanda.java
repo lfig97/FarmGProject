@@ -1,19 +1,24 @@
 public class Froilanda extends Pilot {
 
-    private String cropDuster;
+    private CropDuster cropDuster;
 
     public Froilan(String cropduster){
         this.cropDuster=cropduster;
     }
 
 
-    public String getCropDuster() {
+    @Override
+    public CropDuster getCropDuster() {
         return cropDuster;
     }
 
-    public void setCropDuster(String cropDuster) {
+    public void setCropDuster(CropDuster cropDuster) {
         this.cropDuster = cropDuster;
     }
+
+
+
+
 
 
 

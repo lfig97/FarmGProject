@@ -1,3 +1,3 @@
 
-public class Vehicle implements INoiseMaker implements IRideable {
+public class Vehicle implements INoiseMaker, IRideable {
 }

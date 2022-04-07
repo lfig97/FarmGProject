@@ -1,7 +1,5 @@
 public class Main {
-    private String Animal;
 
-    String makeNoise = "roar";
 
 
 

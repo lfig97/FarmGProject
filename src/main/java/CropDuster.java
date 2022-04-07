@@ -1,14 +1,8 @@
-public class CropDuster extends Aircraft {
-    private String fertilize;
+public class CropDuster extends Aircraft implements IFarmVehicle{
+     String fertilize;
 
-    public void Fertilize(String cropRow) {
+    public void fertilize(String cropRow) {
+        System.out.println("fertilizing cropRow");
     }
 
-    public String getFertilize() {
-        return fertilize;
-    }
-
-    public void setFertilize(String fertilize) {
-        this.fertilize = fertilize;
-    }
 }

@@ -1,4 +1,4 @@
 
 
-public class Vehicle implements NoiseMaker implements Rideable {
+public class Vehicle implements INoiseMaker implements IRideable {
 }

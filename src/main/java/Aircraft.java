@@ -1,14 +1,8 @@
 public class Aircraft extends Vehicle {
-    private String fly;
+     String fly;
 
     public void fly() {
+        System.out.println("flee flee");
     }
 
-    public String getFly() {
-        return fly;
-    }
-
-    public void setFly(String fly) {
-        this.fly = fly;
-    }
 }

@@ -1,6 +1,5 @@
-public class Animal{
-    private String Animal;
-    private String Eater;
+public abstract class Animal implements IEater, INoiseMaker{
+
 
 
 

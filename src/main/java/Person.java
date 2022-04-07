@@ -1,4 +1,4 @@
-public abstract class Person implements IEater, implements NoiseMaker{
+public abstract class Person implements IEater, INoiseMaker{
 
 
 

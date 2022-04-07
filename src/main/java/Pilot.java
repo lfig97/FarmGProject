@@ -1,13 +1,16 @@
 public class Pilot {
-    public String getCropDuster() {
-        return cropDuster;
+
+    private CropDuster cd;
+
+    public CropDuster getCropDuster() {
+        return cd;
     }
 
-    public void setCropDuster(String cropDuster) {
-        this.cropDuster = cropDuster;
+    public void setCropDuster(CropDuster cropDuster) {
+        this.cd = cropDuster;
     }
 
-    String cropDuster;
+
 
 
 }

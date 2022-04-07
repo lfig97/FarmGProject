@@ -1,4 +1,4 @@
 public interface IRider {
-    void mount(IRideable r);
-    void dismount(IRideable r);
+    void mount(IRideable rideable);
+    void dismount(IRideable rideable);
 }

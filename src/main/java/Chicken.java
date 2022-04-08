@@ -10,6 +10,13 @@ public class Chicken extends Animal implements IProduce{
         this.hasBeenFertilized = hasBeenFertilized;
     }
 
+    public void eat(Edible e){
+        System.out.println("eating "+e);
+    }
+
+    public void makeNoise(){
+        System.out.println("cluck cluck");
+    }
 
     @Override
     public Edible yield(){

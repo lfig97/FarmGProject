@@ -1,8 +1,6 @@
-public class Farmer extends Person implements IRider, IBotanist{
-
-
-//    private Crop c;
-
+public class Farmer extends Person implements IRider, IBotanist,IEater{
+    private Crop crop;
+    private CropRow cropRow;
 
     public void mount(IRideable rideable){
         System.out.println("Im going to set up my" + rideable);
@@ -14,9 +12,9 @@ public class Farmer extends Person implements IRider, IBotanist{
     }
 
 
-//    public void plant(){
-//        System.out.println("I'm going to plant a" +);
-//    }
+    public void plant(){
+        System.out.println("I'm going to plant a " +getCrop() +"in"+getCropRow());
+    }
 
     @Override
     public void eat(Edible edible){
@@ -28,12 +26,19 @@ public class Farmer extends Person implements IRider, IBotanist{
         System.out.println("Meep");
     }
 
+    public Crop getCrop() {
+        return crop;
+    }
 
-//    public Crop getC() {
-//        return c;
-//    }
-//
-//    public void setC(Crop c) {
-//        this.c = c;
-//    }
+    public void setCrop(Crop crop) {
+        this.crop = crop;
+    }
+
+    public CropRow getCropRow() {
+        return cropRow;
+    }
+
+    public void setCropRow(CropRow cropRow) {
+        this.cropRow = cropRow;
+    }
 }

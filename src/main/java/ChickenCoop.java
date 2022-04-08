@@ -1,9 +1,11 @@
 public class ChickenCoop {
-    //stores many chicken
-    // i was going to extend it to chicken
+    private Chicken[] chickens;
 
-    public void stores (Chicken chicken){
-        System.out.println("stores"+ chicken);
+    public Chicken[] getChicken() {
+        return chickens;
+    }
 
+    public void setChicken(Chicken[] chicken) {
+        this.chickens = chicken;
     }
 }

@@ -90,10 +90,13 @@ public class Main {
         FarmHouse farmHouse = new FarmHouse();
         Froilanda froilanda = new Froilanda();
         farmHouse.setP(froilanda);
+        
         ArrayList<Horse>[] stables = new ArrayList[]{stable1, stable2, stable3};
         ArrayList<Chicken>[] chickenCoops = new ArrayList[]{chickenCoop1,chickenCoop2,chickenCoop3,chickenCoop4};
+        
         Farm farm = new Farm(stables,chickenCoops,farmHouse);
         farm.setField(field);
+        
         IFarmVehicle[] iFarmVehicles = {cropDuster1,tractor};
         farm.setiFarmVehicle(iFarmVehicles);
         farm.setAircraft(aircraft);

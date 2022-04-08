@@ -1,14 +1,15 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Farm {
-    private Stable[] stables;
-    private ChickenCoop[] chickenCoops;
+    private ArrayList<Horse>[] stables;
+    private ArrayList<Chicken>[] chickenCoops;
     private FarmHouse farmHouse;
-    private Field field;
+    private ArrayList<CropRow> field;
     private IFarmVehicle[] iFarmVehicle;
     private Aircraft aircraft;
 
-    public Farm(Stable[] stables, ChickenCoop[] chickenCoops,FarmHouse farmHouse) {
+    public Farm(ArrayList<Horse>[] stables, ArrayList<Chicken>[] chickenCoops, FarmHouse farmHouse) {
         this.stables = stables;
         this.chickenCoops = chickenCoops;
         this.farmHouse = farmHouse;
@@ -30,19 +31,19 @@ public class Farm {
         this.iFarmVehicle = iFarmVehicle;
     }
 
-    public Field getField() {
+    public ArrayList<CropRow> getField() {
         return field;
     }
 
-    public void setField(Field field) {
+    public void setField(ArrayList<CropRow> field) {
         this.field = field;
     }
 
-    public ChickenCoop[] getChickenCoop() {
+    public ArrayList<Chicken>[] getChickenCoop() {
         return chickenCoops;
     }
 
-    public Stable[] getStable() {
+    public ArrayList<Horse>[] getStable() {
         return stables;
     }
 

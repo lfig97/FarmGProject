@@ -5,4 +5,8 @@ public class Aircraft extends Vehicle {
         System.out.println("flee flee");
     }
 
+    @Override
+    public String toString() {
+        return "Aircraft{}";
+    }
 }

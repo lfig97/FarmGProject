@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Field {
     private CropRow[] cropRow;
 
@@ -7,5 +9,12 @@ public class Field {
 
     public void setCropRow(CropRow[] cropRow) {
         this.cropRow = cropRow;
+    }
+
+    @Override
+    public String toString() {
+        return "Field{" +
+                "cropRow=" + Arrays.toString(cropRow) +
+                '}';
     }
 }

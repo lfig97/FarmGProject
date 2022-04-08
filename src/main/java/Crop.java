@@ -19,5 +19,6 @@ public abstract class Crop extends Edible implements IProduce{
     public void setHasBeenHarvested(boolean hasBeenHarvested) {
         this.hasBeenHarvested = hasBeenHarvested;
     }
+
 }
 

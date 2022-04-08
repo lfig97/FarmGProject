@@ -1,4 +1,4 @@
-public class Pilot {
+public class Pilot extends Person{
 
     private CropDuster cd;
 
@@ -11,6 +11,13 @@ public class Pilot {
     }
 
 
+    @Override
+    public void eat(Edible edible) {
 
+    }
 
+    @Override
+    public void makeNoise() {
+
+    }
 }

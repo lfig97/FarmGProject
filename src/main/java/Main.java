@@ -4,14 +4,9 @@ public class Main {
         Field field = new Field();
         CropRow[] cropRows = new CropRow[5];
         field.setCropRow(cropRows);
-        Corn corn = new Corn();
-        corn.setHasBeenFertilized(true);
-        corn.setHasBeenHarvested(true);
-        cropRows[0].setCrop(corn);
+        cropRows[0].setCorn(new Corn());
         Tomato tomato = new Tomato();
-        tomato.setHasBeenFertilized(true);
-        tomato.setHasBeenHarvested(true);
-        cropRows[1].setCrop(tomato);
+        cropRows[1].setTomato(tomato);
         ChickenCoop[] chickenCoops = new ChickenCoop[4];
         for(ChickenCoop chickenCoops1:chickenCoops){
             chickenCoops1.setChicken(new Chicken[15]);

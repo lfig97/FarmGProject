@@ -1,12 +1,4 @@
-public class Corn extends Crop{
-    private Corn corn;
+public class Corn extends Edible{
 
-    @Override
-    public Edible yield() {
-        if (isHasBeenHarvested()&&isHasBeenFertilized()){
-            Corn c = new Corn();
-            this.corn = c;
-        }
-        return corn;
-    }
+
 }

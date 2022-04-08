@@ -32,6 +32,7 @@ public class Main {
         farm.setAircraft(aircraft);
 
         froilan.setFarm(farm);
+        froilan.toString();
 
 
 

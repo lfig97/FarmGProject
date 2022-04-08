@@ -1,4 +1,4 @@
-public class EdibleEgg {
+public class EdibleEgg extends Edible{
 
 
 }

@@ -9,4 +9,11 @@ public class FarmHouse {
     public void setP(Person p) {
         this.p = p;
     }
+
+    @Override
+    public String toString() {
+        return "FarmHouse{" +
+                "p=" + p +
+                '}';
+    }
 }

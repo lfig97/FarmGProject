@@ -27,4 +27,9 @@ public class CropRow {
     public void setTomato(Tomato tomato) {
         this.tomato = tomato;
     }
+
+    @Override
+    public String toString() {
+        return "CropRow";
+    }
 }

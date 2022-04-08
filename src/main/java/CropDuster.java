@@ -13,4 +13,8 @@ public class CropDuster extends Aircraft implements IFarmVehicle{
         System.out.println("zzzzzzz");
     }
 
+    @Override
+    public String toString() {
+        return "CropDuster";
+    }
 }

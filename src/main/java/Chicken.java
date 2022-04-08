@@ -27,38 +27,8 @@ public class Chicken extends Animal implements IProduce{
      return this.edibleEgg;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Chicken";
+    }
 }
